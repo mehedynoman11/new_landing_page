@@ -1,25 +1,70 @@
-.common-btn{
-    background-color: #4CAF4F;
-    padding: 10px 20px;
-    color: #fff;
-    border-radius: 8px;
-
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+  padding: 0px;
 }
-.outline-btn{
-    background-color: #fff;
-    padding: 10px 20px;
-    color: #4CAF4F;
-    border-radius: 8px;
+/* nav{
+    
+} */
+.container {
+  max-width: 1080px;
+  margin: auto;
 }
-.menu-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.common-btn {
+  background-color: #4caf4f;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 0px;
 }
-ul{
-    display: flex;
-    gap: 50px;
+.outline-btn {
+  background-color: #f0efef;
+  padding: 10px 20px;
+  color: #4caf4f;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 0px;
+}
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 105px;
+}
+ul {
+  display: flex;
+  gap: 50px;
 }
 ul li {
-    list-style: none;
+  list-style: none;
+}
+ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 70vh;
+  background-color: #f5f7fa;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  gap: 20px;
+}
+.header-text button{
+    width:100px;
+}
+.header-text h1 {
+  font-size: 3em;
 }
