@@ -84,18 +84,21 @@ ul li a {
   justify-content: flex-end;
 }
 .service-container{
-  background-color: #ffffff;
+  margin-top: 60px;
+  background-color: #fff;
 }
 .service-section {
-  margin-top: 60px;
   padding: 40px 20px;
   text-align: center;
 }
 .service-section h1 {
   font-size: 2.5rem;
-  margin-bottom: 50px;
-  font-weight: 700;
+  margin-bottom: 10px;
+  font-weight: 600;
   color: #1a1a1a;
+}
+.service-section p {
+  font-size: 18px;
 }
 .logo-layer {
   display: flex;
@@ -106,6 +109,67 @@ ul li a {
 }
 
 .logo-layer .logo {
-    width: 100%;
-    height: auto;
+  width: 100%;
+}
+
+.community-text {
+  padding-top: 60px;
+  padding: 40px 20px;
+  text-align: center;
+}
+.community-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.community-text p {
+  font-size: 18px;
+}
+.community-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.community-card {
+  text-align: center;
+  padding: 50px 60px;
+}
+.community-card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.community-card h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.community-card p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.community-section{
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.banner-2 {
+  display: flex;
+  gap: 50px;
+}
+.banner-2-text {
+  text-align: left;
+  padding: 50px 60px;
+}
+.banner-2-text h1 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.banner-2-text p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.banner-2-section{
+  padding-top: 60px;
+  background-color: #fff;
 }
